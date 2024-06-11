@@ -9,7 +9,7 @@
  * 2. access token contains: user identification (email, role, etc.). valid for a shorter duration
  * 3. refresh token is used: to recreate an access token that was expired.
  * 4. if refresh is invalid then logout the user
- *
+ *# require('crypto').randomBytes(64).toString('hex')
  *
  */
 
